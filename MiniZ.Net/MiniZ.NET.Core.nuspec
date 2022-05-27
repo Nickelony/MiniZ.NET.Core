@@ -5,14 +5,16 @@
 		<version>1.0.0</version>
 		<authors>ActuallyaDeviloper</authors>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<licenseUrl>http://www.boost.org/LICENSE_1_0.txt</licenseUrl>
+		<license type="expression">BSL-1.0</license>
 		<description>
 			Minimal and fast zLib compatible library to compress or decompress zlib compressed data streams.
 		</description>
+		<projectUrl>https://github.com/ActuallyaDeviloper/MiniZ.Net</projectUrl>
+		<repository type="git" url="https://github.com/Nickelony/MiniZ.NET.Core" />
 		<tags>zLib, MiniZ, compression, decompression, fast, simple, core</tags>
 	</metadata>
 	<files>
-		<file src="..\Build\Release\netstandard2.0\MiniZ.Net.dll" target="lib\" />
+		<file src="..\Build\Release\netstandard2.0\MiniZ.Net.dll" target="lib\netstandard2.0\" />
 		<file src="..\Build\Release\MiniZ32.dll" target="build\" />
 		<file src="..\Build\Release\MiniZ64.dll" target="build\" />
 		<file src="MiniZ.NET.Core.targets" target="build\" />
