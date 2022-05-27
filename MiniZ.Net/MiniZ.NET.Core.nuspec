@@ -12,6 +12,7 @@
 		<tags>zLib, MiniZ, compression, decompression, fast, simple, core</tags>
 	</metadata>
 	<files>
+		<file src="..\Build\Release\netstandard2.0\MiniZ.Net.dll" target="lib\" />
 		<file src="..\Build\Release\MiniZ32.dll" target="build\" />
 		<file src="..\Build\Release\MiniZ64.dll" target="build\" />
 		<file src="MiniZ.NET.Core.targets" target="build\" />
