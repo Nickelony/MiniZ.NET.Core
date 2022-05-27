@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniZ.Net", "MiniZ.Net\MiniZ.Net.csproj", "{1DD4F850-EA05-44D1-801A-A300582D58E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniZ.Net", "MiniZ.Net\MiniZ.Net.csproj", "{1DD4F850-EA05-44D1-801A-A300582D58E6}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5C85F62C-96EA-41B0-A510-0D6883DE63F2} = {5C85F62C-96EA-41B0-A510-0D6883DE63F2}
 		{99433D49-C100-4FD7-935F-4D448B4D15AF} = {99433D49-C100-4FD7-935F-4D448B4D15AF}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{62736C73-602A-4D51-B2A0-1CF36F36BF4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{62736C73-602A-4D51-B2A0-1CF36F36BF4E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MiniZ32", "MiniZ\MiniZ32.vcxproj", "{99433D49-C100-4FD7-935F-4D448B4D15AF}"
 EndProject
@@ -40,5 +40,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {639EA328-5F4C-4823-B414-517878F2E232}
 	EndGlobalSection
 EndGlobal
