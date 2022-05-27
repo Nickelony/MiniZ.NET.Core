@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>MiniZ.NET.Core</id>
+		<version>1.0.0</version>
+		<authors>ActuallyaDeviloper</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<licenseUrl>http://www.boost.org/LICENSE_1_0.txt</licenseUrl>
+		<description>
+			Minimal and fast zLib compatible library to compress or decompress zlib compressed data streams.
+		</description>
+		<tags>zLib, MiniZ, compression, decompression, fast, simple, core</tags>
+	</metadata>
+	<files>
+		<file src="..\Build\Release\MiniZ32.dll" target="build\" />
+		<file src="..\Build\Release\MiniZ64.dll" target="build\" />
+		<file src="MiniZ.NET.Core.targets" target="build\" />
+	</files>
+</package>
